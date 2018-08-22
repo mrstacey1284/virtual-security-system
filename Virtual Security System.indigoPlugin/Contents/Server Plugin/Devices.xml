@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Devices>
+    <Device type="securitysystem" id="VirtualSecuritySystem">
+        <Name>Virtual Security System</Name>
+        <ConfigUI>
+            <Field id="address" type="menu">
+                <List class="self" method="get_thermostats"/>
+            </Field>
+        </ConfigUI>
+        <States>
+	        <State id="alarmStatus">
+		        
+	        </State>
+            <State id="SecuritySystemCurrentState">
+                
+            </State>
+            <State id="SecuritySystemAlarmType">
+                
+            </State>
+        </States>
+    </Device>
